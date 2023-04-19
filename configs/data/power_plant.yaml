@@ -1,0 +1,32 @@
+name: "power_plant_large"
+
+max_z: 34.8
+subtile_max_xy: -1
+
+class_names: ["Unlabeled", "Ground", "Vegetation", "Building", "Lasting above"] #, "Pylon"]
+
+learning_map:
+  1 : 0
+  2 : 1
+  3 : 2
+  4 : 2
+  5 : 2
+  6 : 3
+  9 : 0
+  17: 0
+  64: 4
+  65: 0
+  66: 0
+  160: 0
+  161: 0
+  162: 4
+learning_map_inv:
+  0 : 1
+  1 : 2
+  2 : 4
+  3 : 6
+  4 : 64
+  #5 : 162
+
+defaults: 
+  - earthparserdataset

@@ -1,0 +1,35 @@
+name: boats_large
+
+max_xy: 12.8
+pre_transform_grid_sample: 0.1
+
+N_max: 2000
+
+subtile_max_xy: -1
+
+class_names: ["Unlabeled", "Boats", "Bridge"]
+
+ignore_index_0: True
+
+learning_map:
+  1 : 1
+  2 : 0
+  3 : 0
+  4 : 0
+  5 : 0
+  6 : 0
+  9 : 0
+  17: 2
+  64: 0
+  65: 0
+  66: 0
+  160: 0
+  161: 0
+  162: 0
+learning_map_inv:
+  0 : 1
+  1 : 2
+  2 : 17
+
+defaults: 
+  - earthparserdataset

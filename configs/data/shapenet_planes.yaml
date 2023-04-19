@@ -1,0 +1,28 @@
+name: snsem
+
+data_dir: "../../Datasets_PanSeg/ShapeNetSem/shapenetcore_partanno_segmentation_benchmark_v0_normal"
+_target_: earthparserdataset.ShapeNetSemDataModule
+
+input_dim: 3
+
+max_xy: 3.2
+max_z: 3.2
+
+n_max: 0
+
+rotate_z: False
+
+num_workers: 16
+
+classes: [Airplane] # Airplane, Bag, Cap, Car, Chair, Earphone, Guitar, Knife, Lamp, Laptop, Motorbike, Mug, Pistol, Rocket, Skateboard, Table
+
+class_names: [a, b, c, d] #["Airplane", "Bag", "Cap", "Car", "Chair", "Earphone", "Guitar", "Knife", "Lamp", "Laptop", "Motorbike", "Mug", "Pistol", "Rocket", "Skateboard", "Table"]
+
+color_map: # rgb
+  0: [33, 158, 188]
+  1: [2, 48, 71]
+  2: [255, 183, 3]
+  3: [251, 133, 0]
+
+defaults:
+  - default

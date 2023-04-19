@@ -1,0 +1,17 @@
+data_dir: "."
+batch_size: 64
+num_workers: 8
+
+n_features: 3
+
+min_z: 0
+
+distance: xyz
+
+ignore_index_0: False
+
+modality: 3D # 2D or 3D
+
+image:
+  res: 32
+  n_dim: 12

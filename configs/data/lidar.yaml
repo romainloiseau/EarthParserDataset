@@ -1,0 +1,14 @@
+batch_size: 64
+n_features: 8
+N_scene: 0
+
+items_per_epoch:
+  train: 32768
+  val: 128
+
+distance: xyzk
+
+DEBUG: True
+
+defaults:
+  - default
