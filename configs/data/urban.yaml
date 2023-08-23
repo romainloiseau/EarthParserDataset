@@ -1,4 +1,4 @@
-name: "nimes_residentiel"
+name: "urban"
 
 class_names: ["Unlabeled", "Ground", "Vegetation", "Building"]
 

@@ -1,4 +1,4 @@
-name: boats_large
+name: "marina"
 
 max_xy: 12.8
 pre_transform_grid_sample: 0.1
