@@ -12,7 +12,7 @@ This repository contains helper scripts to open, visualize, and process point cl
 
 - **Download** 
 
-The dataset can be downloaded from [link to come](linktocome)
+The dataset can be downloaded from [zenodo](https://zenodo.org/record/7820686)
 
 - **Data loading** 
 
